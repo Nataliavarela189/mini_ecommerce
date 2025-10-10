@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Ecommerce</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mini Ecommerce</h1>
+  </header>
+
+  <main>
+    <section id="productos">
+      <h2>Productos disponibles</h2>
+      <table id="tabla-productos">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            <th>Agregar</th>
+          </tr>
+        </thead>
+        <tbody id="productos-body"></tbody>
+      </table>
+    </section>
+
+    <section id="pedido">
+      <h2>Nuevo Pedido</h2>
+
+      <label for="select-cliente">Seleccionar Cliente:</label>
+      <select id="select-cliente">
+        <option value="">-- Elegir cliente --</option>
+      </select>
+
+      <div id="pedido-items"></div>
+
+      <button id="btn-crear-pedido">Crear Pedido</button>
+
+      <div id="pedido-creado"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Mini Ecommerce - Proyecto UTN</p>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
