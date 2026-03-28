@@ -56,10 +56,7 @@ Está orientado a practicar desarrollo fullstack con foco en APIs y persistencia
 
 ### 1. Clonar repositorio
 
-```bash id="1h0bsp"
-git clone https://github.com/tuusuario/mini-ecommerce.git
-cd mini-ecommerce
-```
+https://github.com/Nataliavarela189/mini_ecommerce
 
 ### 2. Instalar dependencias
 
